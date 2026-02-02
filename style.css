@@ -257,7 +257,7 @@ html {
     background: var(--primary-orange);
     color: white;
     width: 100%;
-    margin-top: 15px;
+    margin-top: auto;
 }
 
 .btn-secondary:hover {
@@ -267,7 +267,7 @@ html {
 }
 
 .btn-outline {
-    background: transparent;
+    background:#FF8C00;
     color: white;
     border: 2px solid white;
 }
@@ -366,6 +366,9 @@ section {
     background: white;
     border-radius: 16px;
     padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     box-shadow: 0 5px 20px var(--shadow);
     transition: all 0.3s ease;
     position: relative;
